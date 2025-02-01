@@ -38,7 +38,7 @@ mu_cation = 1E-14                     * m^2/Vs, mobility of positive ions (take 
 ionsMayEnter = 1                      * may ions enter from other layers? yes(1) or no(<>1)
 
 **Generation and recombination******************************************************
-G_ehp = 7.25E27                       * m^-3 s^-1, generation rate of electron-hole pairs in this layer
+G_ehp = 5E27                          * m^-3 s^-1, generation rate of electron-hole pairs in this layer
 layerGen = 1                          * does this layer generate electron/hole pairs? yes(1) or no (0)
 nkLayer = ../Data/nk_P3HTPCBM_BHJ.txt * name of file with n,k values of this layer
 fieldDepG = 0                         * field dependent generation yes (1) or no (0)
