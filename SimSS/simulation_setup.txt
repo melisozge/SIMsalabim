@@ -24,7 +24,7 @@ R_series = 0                      * Ohms m2, series resistance.
 
 **Optics****************************************************************************
 G_frac = 1                        * fraction of Gmax used in solar cell
-genProfile = calc                 * name of file generation profile (or 'none' or 'calc')
+genProfile = none                 * name of file generation profile (or 'none' or 'calc')
 L_TCO = 1.1E-7                    * m, thickness of the TCO. Set to 0 if layer is not used
 L_BE = 2E-7                       * m, thickness of back electrode, must be >0
 nkSubstrate = ../Data/nk_SiO2.txt * name of file with n,k values of substrate
